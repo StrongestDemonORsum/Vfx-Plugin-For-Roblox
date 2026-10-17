@@ -1,0 +1,15 @@
+{
+  "name": "VfxLab",
+  "servePort": 34872,
+  "tree": {
+    "$className": "Folder",
+    "Main": { "$path": "src/Main.server.lua" },
+    "Ui": { "$path": "src/Ui" },
+    "Engine": {
+      "$path": "src/Engine",
+      "Assets": { "$path": "src/Engine/Assets.rbxm" },
+      "Debris": { "$path": "src/Engine/Debris.rbxm" }
+    },
+    "Modules": { "$path": "src/Modules" }
+  }
+}
